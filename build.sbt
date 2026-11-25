@@ -1145,7 +1145,7 @@ lazy val `schema-examples` = project
     mimaPreviousArtifacts      := Set(),
     coverageMinimumStmtTotal   := 0,
     coverageMinimumBranchTotal := 0,
-    libraryDependencies ++= Seq("com.lihaoyi" %% "sourcecode" % "0.4.4")
+    libraryDependencies ++= Seq("com.lihaoyi" %% "sourcecode" % "0.4.6")
   )
   .dependsOn(`schema-examples-macros`)
   .dependsOn(
